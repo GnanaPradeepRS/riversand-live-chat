@@ -1,0 +1,23 @@
+{
+    "name": "teams-conversation-bot",
+    "version": "1.0.0",
+    "msteams": {
+        "teamsAppId": "ecb0016d-66cc-45dd-a12f-061547f54ac7"
+    },
+    "description": "Microsoft Teams conversation bot quickstart",
+    "author": "Microsoft",
+    "license": "MIT",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js",
+        "watch": "nodemon ./index.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "botbuilder": "~4.7.0",
+        "dotenv": "^8.0.0",
+        "express": "~4.17.1",
+        "html-entities": "^1.3.1",
+        "mongodb": "^3.6.4"
+    }
+}
